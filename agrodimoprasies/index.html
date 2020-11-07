@@ -1,0 +1,81 @@
+<html>
+
+<head>
+	<meta charset=utf-8>
+	<title>Agrodimoprasies</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+
+
+<div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          
+          <h1><a href="index.html">Agro<span class="logo_colour">dimoprasies</span></a></h1>
+          <h2>Δημοπρασίες αγροτικών προϊόντων</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+         
+          <li class="selected"><a href="index.html">HOMEPAGE</a></li>
+          <li><a href="About.html">ABOUT US</a></li>
+          <li><a href="support.html">SUPPORT</a></li>
+		  <li ><a href="register.html">Εγγραφή</a></li>
+        </ul>
+      </div>
+    </div>
+	
+<div class="login-page">
+  <div class="form">
+	<h2 class="eisodos">Σύνδεση Χρήστη</h2>
+    <form class="login-form" method="POST" action="login.php">
+      <input type="text" name="username" placeholder="username"/>
+      <input type="password" name="password" placeholder="password"/>
+      <button name="login">login</button>
+      <p class="message">Δεν έχετε λογαριασμό; <a href="register.html" style="width:auto;">Δημιουργήστε εναν!</a></p>
+	  <a  style="width:auto;">Account Admin<br><br>username:admin<br>password:admin</a>
+    </form>
+  </div>
+</div>
+
+<div class="imgstyle">
+		<h4><br>Καλώς ήρθατε.Εάν είστε παραγωγός η έμπορος και θέλετε να προωθέσετε η να αναζητέσετε προϊόντα στις χαμηλότερες τιμές δημιουργήστε λογαριασμό και πραγματοποιηστέ Εισοδο.</h4>
+		<img class="mySlides" src="screen1.jpg">
+		<img class="mySlides" src="screen2.jpg">
+		<img class="mySlides" src="screen3.jpg">
+		<img class="mySlides" src="screen4.jpg">
+		<!<button class="imgbutton" onclick="plusDivs(-1)">&#10094;</button>
+		<!<button class="imgbutton" onclick="plusDivs(+1)">&#10095;</button>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+
+    <div id="footer">
+     <p><a href="index.html">Home</a> | <a href="About.html">About us</a> | <a href="support.html">Support</a></p>
+		<p>Copyright &copy; Team_Rocket </a></p>
+    </div>
+  </div>
+  
+  
+
+</body>
+</html>

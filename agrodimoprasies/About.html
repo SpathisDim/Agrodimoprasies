@@ -1,0 +1,73 @@
+<html>
+
+<head>
+	<meta charset=utf-8>
+	<title>Agrodimoprasies</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+
+<div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+         
+          <h1><a href="index.html">Agro<span class="logo_colour">dimoprasies</span></a></h1>
+          <h2>Αγροτικα Προίοντα σε δημοπρασια</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+         
+          <li><a href="index.html">HOMEPAGE</a></li>
+          <li class="selected"><a href="About.html">ABOUT US</a></li>
+          <li><a href="support.html">SUPPORT</a></li>
+		  <li ><a href="register.html">Εγγραφή</a></li>
+        </ul>
+      </div>
+    </div>
+	<div id="white_field">
+		<h2 id="h2about">Σχετικά με εμάς</h2>
+		<label id="about_keimeno">Η ιστοσελιδα μας ιδρυθηκε τον Φεβρουαριο του 2018. Η βασικη ιδεα ηταν να βρουμε έναν καινοτομο τροπο ώστε να προβαλουμε και να προωθουμε τα αγαθα 
+		από τις καλιεργιες της οικογενειας. 
+		Επειτα η ιδεα αυτή εξελιχθηκε και φτασαμε στο συμπερασμα να δημιουργησουμε ένα διαδυκτιακο φυλλομετρητη που διαφοροι παραγωγοι θα μπορουν να 
+		προωθησουν τα αγαθα τους στην ποσοτητα και στην τιμη που συμφερει και τις δυο πλευρες (παραγωγους, καταναλωτες). 
+		Πλεον η επιχειρηση μας εχει γινει γνωστη πανελληνίως και οι χρηστές της δηλωνουν πολύ ικανοιποιημενοι κατι που μας χαροποίει ιδιαιτερα .
+		</label>
+	</div>
+	
+	<div class="imgstyle_about">
+		
+		<img class="mySlides" src="screen1.jpg">
+		<img class="mySlides" src="screen2.jpg">
+		<img class="mySlides" src="screen3.jpg">
+		<img class="mySlides" src="screen4.jpg">
+		<!<button class="imgbutton" onclick="plusDivs(-1)">&#10094;</button>
+		<!<button class="imgbutton" onclick="plusDivs(+1)">&#10095;</button>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+	
+    <div id="footer">
+     <p><a href="index.html">Home</a> | <a href="About.html">About us</a> | <a href="support.html">Support</a></p>
+		<p>Copyright &copy; Team_Rocket </a></p>
+    </div>
+	
+</body>
+</html>
