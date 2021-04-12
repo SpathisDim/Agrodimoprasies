@@ -20,7 +20,7 @@ The website aims to auction large quantities of agricultural products from vario
  <b>Paragwgos</b>
 </br>
 ![4](https://user-images.githubusercontent.com/74098652/114322303-0f24d000-9b28-11eb-9221-f80b233608a3.png)
-![4](https://user-images.githubusercontent.com/74098652/114322321-32e81600-9b28-11eb-9d75-e41d06a3d6d5.png)
+
 </br>
 </br>
 </br>
