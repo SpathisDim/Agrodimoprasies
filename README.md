@@ -20,6 +20,8 @@ The website aims to auction large quantities of agricultural products from vario
  <b>Paragwgos</b>
 </br>
 ![4](https://user-images.githubusercontent.com/74098652/114322303-0f24d000-9b28-11eb-9221-f80b233608a3.png)
+![3](https://user-images.githubusercontent.com/74098652/114326906-929deb80-9b3f-11eb-9a6a-88b08633b929.png)
+
 </br>
 <b>Emporos</b>
 </br>
