@@ -9,7 +9,7 @@ The website aims to auction large quantities of agricultural products from vario
 
 <b>index</b>
 </br>
-![alt text](https://user-images.githubusercontent.com/74098652/114322155-5068b000-9b27-11eb-9ce0-9be73c79c4fe.png)
+![alt text]![image](https://user-images.githubusercontent.com/74098652/119864723-9a64f400-bf23-11eb-9a6d-c7455a37c28a.png)
 </br>
 </br>
 </br>
